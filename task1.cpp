@@ -35,12 +35,12 @@ int romanToInt(const std::string& roman)
 int main()
 {
     std::string romanNumeral;
-    std::cout << "Enter a Roman numeral: ";
+    std::cout << "Введите римскую цифру: ";
     std::cin >> romanNumeral;
 
     int intValue = romanToInt(romanNumeral);
 
-    std::cout << "The integer value of " << romanNumeral << " is: " << intValue << std::endl;
+    std::cout << "Целочисленное значение " << romanNumeral << " is: " << intValue << std::endl;
 
     return 0;
 }
