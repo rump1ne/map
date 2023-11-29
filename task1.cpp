@@ -40,7 +40,7 @@ int main()
 
     int intValue = romanToInt(romanNumeral);
 
-    std::cout << "Целочисленное значение " << romanNumeral << " is: " << intValue << std::endl;
+    std::cout << "Целочисленным значением " << romanNumeral << " является: " << intValue << std::endl;
 
     return 0;
 }
