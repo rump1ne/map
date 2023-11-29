@@ -29,10 +29,10 @@ for (auto it = romanMap.rbegin(); it != romanMap.rend(); ++it) {
 
 int main() {
     int intValue;
-    std::cout << "Enter an integer: ";
+    std::cout << "Введите целое число: ";
     std::cin >> intValue;
     std::string romanNumeral = intToRoman(intValue);
-    std::cout << "The Roman numeral equivalent of " << intValue << " is: " << romanNumeral << std::endl;
+    std::cout << "Эквивалентом римской цифры " << intValue << " является: " << romanNumeral << std::endl;
 
     return 0;
 }
