@@ -28,6 +28,8 @@ for (auto it = romanMap.rbegin(); it != romanMap.rend(); ++it) {
 }
 
 int main() {
+setlocale(LC_ALL, "Russian");
+        
     int intValue;
     std::cout << "Введите целое число: ";
     std::cin >> intValue;
