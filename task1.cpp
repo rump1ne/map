@@ -22,7 +22,8 @@ int romanToInt(const std::string& roman)
 
         if (currentValue < prevValue) {
             total -= currentValue;
-        } else {
+        }
+        else {
             total += currentValue;
         }
 
@@ -32,8 +33,9 @@ int romanToInt(const std::string& roman)
     return total;
 }
 
-int main()
-{
+int main() {
+    setlocale(LC_ALL, "Russian");
+
     std::string romanNumeral;
     std::cout << "Введите римскую цифру: ";
     std::cin >> romanNumeral;
